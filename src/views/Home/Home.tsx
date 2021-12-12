@@ -83,20 +83,20 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'PancakeSwap')}
+          {TranslateString(576, 'The Witcher Game')}
         </Heading>
-        <Text>{TranslateString(578, 'The #1 AMM and yield farm on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, 'The game that uses encryption technology to earn coins on the BSC network.')}</Text>
       </Hero>
       <div>
         <Cards>
           <FarmStakingCard />
-          <LotteryCard />
+          {/* <LotteryCard /> */}
         </Cards>
-        <CTACards>
+        {/* <CTACards>
           <EarnAPRCard />
           <EarnAssetCard />
           <WinCard />
-        </CTACards>
+        </CTACards> */}
         <Cards>
           <CakeStats />
           <TotalValueLockedCard />

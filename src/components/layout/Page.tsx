@@ -50,7 +50,7 @@ const Page: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({ children, ...pro
   return (
     <>
       <PageMeta />
-      <MigrationV2 />
+      {/* <MigrationV2 /> */}
       <StyledPage {...props}>{children}</StyledPage>
     </>
   )

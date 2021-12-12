@@ -4,8 +4,8 @@
   "description": "Farm CAKE with Pancake LP Tokens",
   "icons": [
     {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
+      "src": "favicon.png",
+      "type": "image/png",
       "sizes": "256x256"
     }
   ],
